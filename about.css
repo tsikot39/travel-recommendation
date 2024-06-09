@@ -34,28 +34,23 @@ body {
   width: 80%;
   padding: 20px;
   text-align: center;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.6
-  ); /* Adding background color to enhance readability */
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-radius: 15px;
 }
 .content h2 {
   font-size: 3em;
-  margin-bottom: 10px; /* Reduce margin */
+  margin-bottom: 10px;
 }
 .content p {
   font-size: 1.2em;
   line-height: 1.5;
-  margin-top: 10px; /* Reduce margin */
+  margin-top: 10px;
 }
 .team {
   display: flex;
   justify-content: center;
-  margin-top: 20px; /* Reduce margin */
+  margin-top: 20px;
 }
 .team-member {
   background-color: rgba(0, 0, 0, 0.6);

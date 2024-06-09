@@ -16,9 +16,9 @@ body {
 }
 
 .logo {
-  height: 40px; /* Adjust the height of the logo as needed */
+  height: 40px;
   margin-right: 20px;
-  filter: brightness(0) invert(1); /* Apply filter to make the logo white */
+  filter: brightness(0) invert(1);
 }
 
 .navbar a {
@@ -58,7 +58,7 @@ body {
   background-color: #d32f2f;
 }
 .content {
-  margin-top: 70px; /* Ensure content starts below the navbar */
+  margin-top: 70px;
 }
 .hero {
   background-image: url("travel.jpg");
@@ -118,7 +118,7 @@ body {
 
 #recommendations {
   width: 30%;
-  margin: 100px auto 20px auto; /* Adjust margin to start below the navbar */
+  margin: 100px auto 20px auto;
   padding: 20px;
 }
 

@@ -33,7 +33,7 @@ body {
 
 .hero-content {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column;
   align-items: center;
   width: 80%;
   max-width: 600px;
@@ -45,7 +45,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 100%; /* Full width of the hero-content */
+  width: 100%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -53,9 +53,9 @@ body {
 }
 
 .form-container h1 {
-  font-size: 2.5em; /* Reduced font size */
+  font-size: 2.5em;
   text-transform: uppercase;
-  margin: 0 0 20px 0; /* Add some space below the text */
+  margin: 0 0 20px 0;
   color: white;
 }
 
@@ -65,7 +65,7 @@ body {
 
 .form-container input,
 .form-container textarea {
-  width: calc(100% - 20px); /* Adjust for padding */
+  width: calc(100% - 20px);
   padding: 10px;
   margin: 10px 0;
   border: none;
