@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 0 10px;
+}
+
+.hero {
+  background-image: url("travel.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 100%; /* Full width of the hero-content */
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container h1 {
+  font-size: 2.5em; /* Reduced font size */
+  text-transform: uppercase;
+  margin: 0 0 20px 0; /* Add some space below the text */
+  color: white;
+}
+
+.form-container form {
+  width: 100%;
+}
+
+.form-container input,
+.form-container textarea {
+  width: calc(100% - 20px); /* Adjust for padding */
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+  background-color: #009688;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #00796b;
+}
+
+.social-icons {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.social-icons a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}

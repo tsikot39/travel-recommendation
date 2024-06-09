@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px; /* Adjust the height of the logo as needed */
+  margin-right: 20px;
+  filter: brightness(0) invert(1); /* Apply filter to make the logo white */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-container input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.search-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #009688;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 0 5px 5px 0;
+  transition: background-color 0.3s;
+}
+.search-container button:hover {
+  background-color: #00796b;
+}
+.search-container .clear-button {
+  margin-left: 10px;
+  background-color: #f44336;
+  border-radius: 5px;
+}
+.search-container .clear-button:hover {
+  background-color: #d32f2f;
+}
+.content {
+  margin-top: 70px; /* Ensure content starts below the navbar */
+}
+.hero {
+  background-image: url("travel.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.hero-content {
+  max-width: 50%;
+  margin-left: 100px;
+  text-align: left;
+}
+.hero-content h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+}
+.hero-content p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+.hero-content button {
+  background-color: #009688;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.hero-content button:hover {
+  background-color: #00796b;
+}
+.social-icons {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.social-icons a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+#recommendations {
+  width: 30%;
+  margin: 100px auto 20px auto; /* Adjust margin to start below the navbar */
+  padding: 20px;
+}
+
+.recommendation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+}
+.recommendation img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.recommendation h3 {
+  margin-top: 10px;
+}
+.recommendation p {
+  margin: 10px 0;
+  text-align: center;
+}
+.recommendation button {
+  background-color: #009688;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.recommendation button:hover {
+  background-color: #00796b;
+}
